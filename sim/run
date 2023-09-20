@@ -1,0 +1,8 @@
+xrun \
+-uvmhome CDNS-1.2 \
+../sv/top.sv \
+-access +rw \
+-timescale 1ns/1ps \
+-64bit \
++UVM_TESTNAME=cb_iter_test \
+$*
